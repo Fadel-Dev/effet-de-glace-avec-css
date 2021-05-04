@@ -1,0 +1,40 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1300px;
+    height: 100vh;
+    background: url(https://source.unsplash.com/random) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+    
+}
+p{
+    line-height: 1.5rem;
+}
+
+.glace{
+    padding: 5rem;
+    max-width: 500px;
+    background: #ffffff87;
+    -webkit-backdrop-filter: blur(5px);
+}
+@media screen and (max-width : 600px) {
+
+    .glace{
+        padding: 1.5rem;
+        max-width: 300px;
+        height: auto;
+        background: #ffffff42;
+        -webkit-backdrop-filter: blur(5px);
+    }
+}
